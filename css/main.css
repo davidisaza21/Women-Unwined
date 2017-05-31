@@ -34,9 +34,13 @@ p {
     display: none !important;
 }
 .WUW-hc {
-    padding: 10% 0;
+    padding-top: 10%;
 	text-align: center;
 	font-size: 90px;
+}
+.WUW-hsub {
+    text-align: center;
+    padding-bottom: 10%;
 }
 .WUW-hero {
     padding: 25px 0;
@@ -47,6 +51,7 @@ p {
     text-align: center;
 	display: -webkit-inline-box;
 	text-decoration: underline;
+    font-size: 22px;
 }
 .WUW-desc {
     padding: 2.5% 0; 
