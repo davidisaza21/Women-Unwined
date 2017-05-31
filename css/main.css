@@ -140,3 +140,49 @@ a {
 #mc-embedded-subscribe:hover{
     text-decoration: none;
 }
+/* Responsive CSS phone */
+@media (max-width: 768px)  {
+    .WUW-hc {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .WUW-desc {
+        padding: 5% 0;
+        max-height: 720px;
+    }
+    .WUW-signUp {
+        padding: 8% 0;
+    }
+    #mce-EMAIL {
+        margin: 4.125%;
+    }
+    #mc-embedded-subscribe {
+        padding-top: 5%;
+    }
+    .fa-2x {
+        font-size: 45px !important;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 18px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 18px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 18px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 18px;
+    }
+    .WUW-social {
+        padding-top: 15px;
+    }
+}
