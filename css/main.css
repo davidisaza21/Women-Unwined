@@ -158,6 +158,9 @@ a {
         padding: 5% 0;
         max-height: 720px;
     }
+    .WUW-event h3 {
+        text-align: center;
+    }
     .WUW-signUp {
         padding: 8% 0;
     }
