@@ -83,6 +83,7 @@ p {
     text-align: center;
 }
 .SU-logo {
+    display: block;
     margin: auto;
     max-width: 120px;
 }
@@ -91,6 +92,9 @@ text-align: center;
 }
 .WUW-social a{
     padding: 0 15px; 
+}
+.WUW-social a:hover{
+    opacity: .8;
 }
 .WUW-footer p{
     text-align: center;
