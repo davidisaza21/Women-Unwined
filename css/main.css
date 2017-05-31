@@ -15,17 +15,21 @@ h3 {
 p {
     font-size: 22px;
 }
+a {
+    text-decoration: underline;
+    color: #000000;
+}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #E4B69F;
+  color: #F7D7DE;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #E4B69F;
+  color: #F7D7DE;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: #E4B69F;
+  color: #F7D7DE;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: #E4B69F;
+  color: #F7D7DE;
 }
 .fa {
     color: #000000;
@@ -44,11 +48,13 @@ p {
 }
 .WUW-hero {
     padding: 25px 0;
-	background-color: #E4B69F;
+	background-color: #F7D7DE;
     max-height: 600px;
 }
+.WUW-menu {
+     text-align: center;
+}
 .WUW-menu li {
-    text-align: center;
 	display: -webkit-inline-box;
 	text-decoration: underline;
     font-size: 22px;
@@ -79,7 +85,7 @@ p {
 .WUW-signUp {
     max-height: 420px;
     background-color: #000000;
-    color: #E4B69F;
+    color: #F7D7DE;
     padding: 2% 0;
     text-align: center;
 }
@@ -93,7 +99,8 @@ p {
     max-width: 120px;
 }
 .WUW-social {
-text-align: center;
+    text-align: center;
+    padding-bottom: 15px;
 }
 .WUW-social a{
     padding: 0 15px; 
@@ -119,7 +126,7 @@ text-align: center;
 }
 #mce-EMAIL {
     background-color: #000000;
-    border: solid 2px #E4B69F;
+    border: solid 2px #F7D7DE;
     padding: 15px;
 }
 #mc-embedded-subscribe {
