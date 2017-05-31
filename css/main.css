@@ -1,0 +1,126 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    color: #000000;
+}
+h1,h2,h3 {
+    font-family: 'Abril Fatface', cursive;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 22px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #E4B69F;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #E4B69F;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #E4B69F;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #E4B69F;
+}
+.fa {
+    color: #000000;
+}
+.hide {
+    display: none !important;
+}
+.WUW-hc {
+    padding: 10% 0;
+	text-align: center;
+	font-size: 90px;
+}
+.WUW-hero {
+    padding: 25px 0;
+	background-color: #E4B69F;
+    max-height: 600px;
+}
+.WUW-menu li {
+    text-align: center;
+	display: -webkit-inline-box;
+	text-decoration: underline;
+}
+.WUW-desc {
+    padding: 2.5% 0; 
+    line-height: 2;
+    background-color: #DE9251;
+    max-height: 360px;
+}
+.WUW-ComingEvents {
+    max-height: 1176px;
+    background-color: #E0DBD2;
+    padding-bottom: 5%;
+}
+.WUW-event {
+    padding-top: 5%;
+    padding-left: 50px;
+}
+.WUW-event a {
+    text-decoration: underline;
+    color: #000000;
+}
+.WUW-event a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.WUW-signUp {
+    max-height: 420px;
+    background-color: #000000;
+    color: #E4B69F;
+    padding: 2% 0;
+    text-align: center;
+}
+.WUW-affiliate {
+    padding: 2% 0;
+    text-align: center;
+}
+.SU-logo {
+    margin: auto;
+    max-width: 120px;
+}
+.WUW-social {
+text-align: center;
+}
+.WUW-social a{
+    padding: 0 15px; 
+}
+.WUW-footer p{
+    text-align: center;
+    font-size: 18px;
+}
+.WUW-suheader {
+    padding-bottom: 2%;
+}
+.WUW-susub {
+    padding-bottom: 3%;
+}
+#mc_embed_signup{
+    width:100%;
+}
+.clear {
+    clear:both;
+}
+#mce-EMAIL {
+    background-color: #000000;
+    border: solid 2px #E4B69F;
+    padding: 15px;
+}
+#mc-embedded-subscribe {
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+    background-color: #000000;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-top: 2%;
+}
+#mc-embedded-subscribe:hover{
+    text-decoration: none;
+}
