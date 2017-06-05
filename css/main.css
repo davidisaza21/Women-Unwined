@@ -18,6 +18,7 @@ p {
 a {
     text-decoration: underline;
     color: #000000;
+    cursor: url("../images/wine1.png"), auto;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #F7D7DE;
@@ -136,6 +137,7 @@ a {
     text-decoration: underline;
     font-size: 30px;
     padding-top: 2%;
+    cursor: url("../images/wine2.png"), auto;
 }
 #mc-embedded-subscribe:hover{
     text-decoration: none;
