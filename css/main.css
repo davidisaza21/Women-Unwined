@@ -18,7 +18,7 @@ p {
 a {
     text-decoration: underline;
     color: #000000;
-    cursor: url("../images/wine1.png"), auto;
+    cursor: url("../images/wine1.png"), pointer;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #F7D7DE;
@@ -33,7 +33,14 @@ a {
   color: #F7D7DE;
 }
 .fa {
-    color: #000000;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50% !important;
+    color: #FFFFFF;
+    background-color: #000;
+    height: 100px;
+    width: 100px;
+    line-height: 98px !important;
 }
 .hide {
     display: none !important;
@@ -63,17 +70,21 @@ a {
 .WUW-desc {
     padding: 2.5% 0; 
     line-height: 2;
-    background-color: #DE9251;
-    max-height: 360px;
+    background-color: #fff;
+    max-height: 380px;
 }
 .WUW-ComingEvents {
-    max-height: 1176px;
-    background-color: #E0DBD2;
+    min-height: 588px;
+    background-color: #F4F2EC;
     padding-bottom: 5%;
 }
 .WUW-event {
     padding-top: 5%;
+    min-height: 280px;
     padding-left: 50px;
+}
+.WUW-event p {
+    padding-left: 0;
 }
 .WUW-event a {
     text-decoration: underline;
@@ -83,31 +94,55 @@ a {
     text-decoration: none;
     color: #000000;
 }
+.WUW-cta h3 {
+    text-decoration: underline;
+    padding-top: 90px;
+    background-color: #9FF7F4;
+    min-height: 202px;
+    margin: 0;
+}
+.WUW-cta h3:hover {
+    opacity: .8;
+    color: #000000;
+}
 .WUW-signUp {
-    max-height: 420px;
+    min-height: 420px;
     background-color: #000000;
     color: #F7D7DE;
-    padding: 2% 0;
+    padding: 3% 0;
     text-align: center;
 }
 .WUW-affiliate {
-    padding: 2% 0;
+    padding: 2% 0 0;
     text-align: center;
 }
 .SU-logo {
     display: block;
-    margin: auto;
-    max-width: 120px;
+    margin-left: 525%;
+}
+.CW-logo {
+    height: 144px;
+    padding: 20px;
+}
+.WUW-social:hover{
+    opacity: .8;
+    color: #000;
 }
 .WUW-social {
-    text-align: center;
-    padding-bottom: 15px;
+    min-height: 225px;
+    padding-top: 3%;
 }
-.WUW-social a{
-    padding: 0 15px; 
+.WUW-facebook {
+    background-color: #F4F2EC;
 }
-.WUW-social a:hover{
-    opacity: .8;
+.WUW-instagram {
+    background-color: #F7D7DE;
+}
+.WUW-footer {
+    padding: 10px;
+}
+.WUW-footer div{
+    display: -webkit-inline-box;
 }
 .WUW-footer p{
     text-align: center;
@@ -137,7 +172,7 @@ a {
     text-decoration: underline;
     font-size: 30px;
     padding-top: 2%;
-    cursor: url("../images/wine2.png"), auto;
+    cursor: url("../images/wine2.png"), pointer;
 }
 #mc-embedded-subscribe:hover{
     text-decoration: none;
