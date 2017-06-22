@@ -204,6 +204,9 @@ a {
     .WUW-social {
         padding-top: 8%;
     }
+    .WUW-social h2{
+        margin-top: 0;
+    }
     .fa-2x {
         font-size: 45px !important;
     }
